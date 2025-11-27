@@ -5,7 +5,7 @@
     <div class="imagen-difuminada-wrapper">
         <span class="img_header">
             <!-- La imagen -->
-            <img src="../../../public/images/logoredvital_navidad.jpg" alt="Logo Red Vital Navidad">
+            <img src="/images/logoredvital_navidad.jpg" alt="Logo Red Vital Navidad">
         </span>
         <!-- EL DIV DE GRADIENTE: Debe estar aquí para superponerse -->
         <div class="gradiente-overlay"></div> 
