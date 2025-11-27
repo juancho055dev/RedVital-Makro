@@ -4,7 +4,7 @@ import { ref, computed } from "vue";
 export const useUserStore = defineStore('userStore', () => {
     const user = ref(null); //datos de firebase
     const userData = ref(null) ; //datos de firestore (nombre),(apellido)
-
+    
     const IsloggedIn = computed(() => {
             return !!userData.value?.email
         });
@@ -20,7 +20,6 @@ export const useUserStore = defineStore('userStore', () => {
     const cleaUser = () => {
         user.value = null;
         userData.value = null
-        favorito.value = []; // ⬅️ ¡NO USAR 'null' AQUÍ!
     }
 
     

@@ -184,11 +184,13 @@ const IsloggedIn = computed(() => {
   border-radius: 5px 10px  10px 30px;
   justify-content: center;
   height: 20%;
-  background-color: var(--gris-secundary);
+  box-shadow:
+  0px 4px 4px -1px rgba(0, 0, 0, 0.05);
+  background-color: white;
 
   i{
     font-size: 1.5rem;
-    color: white;
+    color: var(--secundary-colorRed);
   }
 }
 .offsale{

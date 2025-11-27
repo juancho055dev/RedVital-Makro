@@ -77,7 +77,7 @@ import { useUserStore } from '../store/UserStore';
 import { computed } from 'vue';
 import { useToast,} from 'vue-toastification';
 import NavbarMobileTop from '../components/HeaderBar/NavbarApp/NavbarMobileTop.vue';
-import { logoutUser } from '../Firebase/auth';
+import { logoutUser } from '../firebase/auth';
 
 
 const UserStore = useUserStore();
