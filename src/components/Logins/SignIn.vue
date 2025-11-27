@@ -43,7 +43,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import { registerUser } from '@/firebase/auth'  
+import { registerUser, auth } from '@/firebase/auth.js'  
 import {db} from  '@/firebase/config';// ✅ Importa solo la funciónimport {db} from '@/firebase/config';
 import {doc, setDoc} from 'firebase/firestore'
 import { useToast } from 'vue-toastification';
