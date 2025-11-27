@@ -24,7 +24,7 @@
 <script setup>
     import PickupLocation from "./PickupLocation.vue"
     import CardShop from "./CarShop.vue"
-    import Sing_in from "./sing_in.vue";
+    import Sing_in from "./Sing_in.vue";
     import Saved_items from "./Saved_items.vue";
     import FilterBar from '../FilterBar/FilterBar.vue';
 import { UseScreen } from "../../composables/useScreen";

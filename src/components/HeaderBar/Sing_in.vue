@@ -27,12 +27,11 @@
 
 <script setup>
 
-import { computed } from 'vue';
-import { auth } from '../../Firebase/config';
+
 import { useUserStore } from '../../store/UserStore';
 import { useRouter } from 'vue-router';
 import { useToast } from 'vue-toastification';
-import { logoutUser } from '../../Firebase/auth';
+import { logoutUser } from '../../firebase/auth';
 
 const toast = useToast();
 const UserStore = useUserStore();
