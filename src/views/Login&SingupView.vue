@@ -35,14 +35,14 @@
        <h1>Setting</h1>
 
        <div class="setting_cart">
-            <router-link>
+            <router-link to="/home">
                 <span>
                     <i class="fa-solid fa-circle-user"></i>
                     <h2> Detalles de Cuenta</h2>
                     <i class="fa-solid fa-chevron-right"></i>
                 </span>
             </router-link>
-            <router-link>
+            <router-link to="/home">
                 <span>
                    <i class="fa fa-bell"></i>
                    <h2>Notificaciones</h2>
